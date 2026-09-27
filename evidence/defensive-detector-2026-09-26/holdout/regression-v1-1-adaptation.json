@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-09-26T07:48:52.852Z",
+  "purpose": "Exposed comparison regression; not a new held-out evaluation",
+  "original_sha256": "f4350279b49c63d8a31bb710e4b58fdd76927da1985da6c9cfa1e0dd048dbbc9",
+  "derived_sha256": "7a77e7a7943200113cb7514e2c21d0158806d49de5c1b50fe2e1db8de6043d2e",
+  "only_change": {
+    "from": "assert.equal(actual.detector_version,'1.0.0','Detector version');",
+    "to": "assert.equal(actual.detector_version,'1.1.0','Detector version');"
+  },
+  "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+}

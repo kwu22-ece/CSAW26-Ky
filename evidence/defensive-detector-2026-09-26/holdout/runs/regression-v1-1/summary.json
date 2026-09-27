@@ -1,0 +1,6308 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T07:49:08.628Z",
+  "status": "PASS",
+  "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec",
+  "fixture_commitment_sha256": "fefd9e4dbd46a9d94826e2509d87a4db3ddee5c6646c009b3ffd67eddf4472a7",
+  "evaluator_sha256": "7a77e7a7943200113cb7514e2c21d0158806d49de5c1b50fe2e1db8de6043d2e",
+  "node_version": "v24.16.0",
+  "platform": "win32",
+  "fixture_cases": 237,
+  "checks": 897,
+  "passed": 897,
+  "failed": 0,
+  "unique_case_matched_record_checks": 102474,
+  "unique_case_injected_mismatch_checks": 481,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "missed_missing_ids": 0,
+  "missed_unexpected_ids": 0,
+  "invalid_inputs_accepted_as_pass": 0,
+  "api_repeat_trials": 3,
+  "notes": [
+    "Record metrics count each fixture once; repeated API trials do not inflate denominator.",
+    "CLI-only maximum-count fixture contributes 100000 matching records.",
+    "Synthetic, offline, finite-sample validation does not establish general CVSS-severity detection."
+  ],
+  "records": [
+    {
+      "case": "batch-000",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-000",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-000",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-000",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-001",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-001",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-001",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-001",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-002",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-002",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-002",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-002",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-003",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-003",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-003",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-003",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-004",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-004",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-004",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-004",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-005",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-005",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-005",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-005",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-006",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-006",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-006",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-006",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-007",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-007",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-007",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-007",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-008",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-008",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-008",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-008",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-009",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-009",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-009",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-009",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-010",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-010",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-010",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-010",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-011",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-011",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-011",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-011",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-012",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-012",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-012",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-012",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-013",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-013",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-013",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-013",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-014",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-014",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-014",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-014",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-015",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-015",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-015",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-015",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-016",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-016",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-016",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-016",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-017",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-017",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-017",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-017",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-018",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-018",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-018",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-018",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-019",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-019",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-019",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-019",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-020",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-020",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-020",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-020",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-021",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-021",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-021",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-021",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-022",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-022",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-022",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-022",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-023",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-023",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-023",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-023",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-024",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-024",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-024",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-024",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-025",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-025",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-025",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-025",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-026",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-026",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-026",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-026",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-027",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-027",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-027",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-027",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-028",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-028",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-028",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-028",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-029",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-029",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-029",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-029",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-030",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-030",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-030",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-030",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-031",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-031",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-031",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-031",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-032",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-032",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-032",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-032",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-033",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-033",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-033",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-033",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-034",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-034",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-034",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-034",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-035",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-035",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-035",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-035",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-036",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-036",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-036",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-036",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-037",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-037",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-037",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-037",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-038",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-038",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-038",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-038",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-039",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-039",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-039",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-039",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-040",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-040",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-040",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-040",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-041",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-041",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-041",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-041",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-042",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-042",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-042",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-042",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-043",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-043",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-043",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-043",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-044",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-044",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-044",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-044",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-045",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-045",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-045",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-045",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-046",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-046",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-046",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-046",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-047",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-047",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-047",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-047",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-048",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-048",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-048",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-048",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-049",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-049",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-049",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-049",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-050",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-050",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-050",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-050",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-051",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-051",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-051",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-051",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-052",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-052",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-052",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-052",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-053",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-053",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-053",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-053",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-054",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-054",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-054",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-054",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-055",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-055",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-055",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-055",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-056",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-056",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-056",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-056",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-057",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-057",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-057",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-057",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-058",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-058",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-058",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-058",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-059",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-059",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-059",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-059",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-060",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-060",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-060",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-060",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-061",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-061",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-061",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-061",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-062",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-062",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-062",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-062",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-063",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-063",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-063",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-063",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-064",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-064",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-064",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-064",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-065",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-065",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-065",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-065",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-066",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-066",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-066",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-066",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-067",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-067",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-067",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-067",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-068",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-068",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-068",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-068",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-069",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-069",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-069",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-069",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-070",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-070",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-070",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-070",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-071",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-071",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-071",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-071",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-072",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-072",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-072",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-072",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-073",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-073",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-073",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-073",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-074",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-074",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-074",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-074",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-075",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-075",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-075",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-075",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-076",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-076",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-076",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-076",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-077",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-077",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-077",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-077",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-078",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-078",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-078",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-078",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-079",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-079",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-079",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-079",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-080",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-080",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-080",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-080",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-081",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-081",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-081",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-081",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-082",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-082",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-082",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-082",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-083",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-083",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-083",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-083",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-084",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-084",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-084",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-084",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-085",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-085",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-085",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-085",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-086",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-086",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-086",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-086",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-087",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-087",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-087",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-087",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-088",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-088",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-088",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-088",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-089",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-089",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-089",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-089",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-090",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-090",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-090",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-090",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-091",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-091",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-091",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-091",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-092",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-092",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-092",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-092",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-093",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-093",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-093",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-093",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-094",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-094",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-094",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-094",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-095",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-095",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-095",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-095",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-096",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-096",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-096",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-096",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-097",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-097",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-097",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-097",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-098",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-098",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-098",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-098",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-099",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-099",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-099",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-099",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-100",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-100",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-100",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-100",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-101",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-101",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-101",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-101",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-102",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-102",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-102",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-102",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-103",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-103",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-103",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-103",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-104",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-104",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-104",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-104",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-105",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-105",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-105",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-105",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-106",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-106",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-106",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-106",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-107",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-107",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-107",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-107",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-108",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-108",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-108",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-108",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-109",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-109",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-109",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-109",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-110",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-110",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-110",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-110",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-111",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-111",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-111",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-111",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-112",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-112",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-112",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-112",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-113",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-113",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-113",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-113",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-114",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-114",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-114",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-114",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-115",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-115",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-115",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-115",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-116",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-116",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-116",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-116",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-117",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-117",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-117",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-117",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-118",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-118",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-118",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-118",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-119",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-119",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-119",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-119",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-120",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-120",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-120",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-120",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-121",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-121",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-121",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-121",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-122",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-122",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-122",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-122",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-123",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-123",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-123",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-123",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-124",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-124",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-124",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-124",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-125",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-125",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-125",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-125",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-126",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-126",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-126",
+      "category": "seeded-match",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-126",
+      "category": "seeded-match",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-127",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "batch-127",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "batch-127",
+      "category": "seeded-mixed-alarm",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "batch-127",
+      "category": "seeded-mixed-alarm",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-00",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-00",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-00",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-00",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-01",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-01",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-01",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-01",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-02",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-02",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-02",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-02",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-03",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-03",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-03",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-03",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-04",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-04",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-04",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-04",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-05",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-05",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-05",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-05",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-06",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-06",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-06",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-06",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-07",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-07",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-07",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-07",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-08",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-08",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-08",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-08",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-09",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-09",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-09",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-09",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-10",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-10",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-10",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-10",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-11",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-11",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-11",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-11",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-12",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-12",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-12",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-12",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-13",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-13",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-13",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-13",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-14",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-14",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-14",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-14",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-15",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-15",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-15",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-15",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-16",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-16",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-16",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-16",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-17",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-17",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-17",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-17",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-18",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-18",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-18",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-18",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-19",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-19",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-19",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-19",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-20",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-20",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-20",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-20",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-21",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-21",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-21",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-21",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-22",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-22",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-22",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-22",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-23",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-23",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-23",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-23",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-24",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-24",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-24",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-24",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-25",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-25",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-25",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-25",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-26",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-26",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-26",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-26",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-27",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-27",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-27",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-27",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-28",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-28",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-28",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-28",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-29",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-29",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-29",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-29",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-30",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-30",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-30",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-30",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-31",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-31",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-31",
+      "category": "isolated-bit-position",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "isolated-bit-31",
+      "category": "isolated-bit-position",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "empty-observations",
+      "category": "empty-observations",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "empty-observations",
+      "category": "empty-observations",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "empty-observations",
+      "category": "empty-observations",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "empty-observations",
+      "category": "empty-observations",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "all-bits",
+      "category": "all-bit-mismatch",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "all-bits",
+      "category": "all-bit-mismatch",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "all-bits",
+      "category": "all-bit-mismatch",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "all-bits",
+      "category": "all-bit-mismatch",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-and-format-edges",
+      "category": "valid-format-and-id-edges",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-and-format-edges",
+      "category": "valid-format-and-id-edges",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-and-format-edges",
+      "category": "valid-format-and-id-edges",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-and-format-edges",
+      "category": "valid-format-and-id-edges",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-short",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-short",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-short",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-short",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-short",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-short",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-short",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-short",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-long",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-long",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-long",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-long",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-long",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-long",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-long",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-long",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-prefix",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-prefix",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-prefix",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-prefix",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-prefix",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-prefix",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-prefix",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-prefix",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-number",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-number",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-number",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-number",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-number",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-number",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-number",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-number",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-null",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-null",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-null",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-null",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-null",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-null",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-null",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-null",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unknown-x",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unknown-x",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unknown-x",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unknown-x",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unknown-x",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unknown-x",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unknown-x",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unknown-x",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unknown-z",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unknown-z",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unknown-z",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unknown-z",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unknown-z",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unknown-z",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unknown-z",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unknown-z",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-space",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-space",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-space",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-space",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-space",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-space",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-space",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-space",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unicode",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unicode",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unicode",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-unicode",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unicode",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unicode",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unicode",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-unicode",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-empty",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-empty",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-empty",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-empty",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-empty",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-empty",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-empty",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-empty",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-array",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-array",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-array",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-array",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-array",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-array",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-array",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-array",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-object",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-observed-object",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-observed-object",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-observed-object",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-object",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "word-reference-object",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "word-reference-object",
+      "category": "invalid-word",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "word-reference-object",
+      "category": "invalid-word",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-empty",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-empty",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-empty",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-empty",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-leading-space",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-leading-space",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-leading-space",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-leading-space",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-trailing-space",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-trailing-space",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-trailing-space",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-trailing-space",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-leading-nbsp",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-leading-nbsp",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-leading-nbsp",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-leading-nbsp",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-linebreak",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-linebreak",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-linebreak",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-linebreak",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-tab",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-tab",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-tab",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-tab",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-nul",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-nul",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-nul",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-nul",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-del",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-del",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-del",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-del",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-length129",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-length129",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-length129",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-length129",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-surrogate-length",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-surrogate-length",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-surrogate-length",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-surrogate-length",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-number",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-number",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-number",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-number",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-null",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "id-null",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "id-null",
+      "category": "invalid-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "id-null",
+      "category": "invalid-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "duplicate-reference-id",
+      "category": "duplicate-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "duplicate-reference-id",
+      "category": "duplicate-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "duplicate-reference-id",
+      "category": "duplicate-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "duplicate-reference-id",
+      "category": "duplicate-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "duplicate-observed-id",
+      "category": "duplicate-id",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "duplicate-observed-id",
+      "category": "duplicate-id",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "duplicate-observed-id",
+      "category": "duplicate-id",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "duplicate-observed-id",
+      "category": "duplicate-id",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-null",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-null",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-null",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-null",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-array",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-array",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-array",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-array",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-version-string",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-version-string",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-version-string",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-version-string",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-version-two",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-version-two",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-version-two",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-version-two",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-version",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-version",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-version",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-version",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-records",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-records",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-records",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-records",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-records-object",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-records-object",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-records-object",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-records-object",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-extra-top",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-extra-top",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-extra-top",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-extra-top",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-record-null",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-record-null",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-record-null",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-record-null",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-record-array",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-record-array",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-record-array",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-record-array",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-extra-record",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-extra-record",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-extra-record",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-extra-record",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-word",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-word",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-word",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-missing-word",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-wrong-role",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-wrong-role",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-wrong-role",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "schema-reference-wrong-role",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "empty-reference",
+      "category": "empty-reference",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "empty-reference",
+      "category": "empty-reference",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "empty-reference",
+      "category": "empty-reference",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "empty-reference",
+      "category": "empty-reference",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observed-extra-record",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observed-extra-record",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "observed-extra-record",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "observed-extra-record",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observed-extra-top",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observed-extra-top",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "observed-extra-top",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "observed-extra-top",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observed-missing-word",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observed-missing-word",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "observed-missing-word",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "observed-missing-word",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observed-wrong-role",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observed-wrong-role",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 2,
+      "pass": true
+    },
+    {
+      "case": "observed-wrong-role",
+      "category": "invalid-schema",
+      "channel": "API",
+      "trial": 3,
+      "pass": true
+    },
+    {
+      "case": "observed-wrong-role",
+      "category": "invalid-schema",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-duplicate-top",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-duplicate-escaped-top",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-duplicate-record",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-duplicate-escaped-record",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-trailing-comma",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-truncated",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-multiple-values",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-not-json",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-empty-file",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "raw-comments",
+      "category": "invalid-json",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "invalid-utf8",
+      "category": "invalid-utf8",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "pinned-hash-mismatch",
+      "category": "reference-integrity",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "missing-reference-file",
+      "category": "unreadable-input",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "missing-observed-file",
+      "category": "unreadable-input",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "file-over-limit",
+      "category": "file-byte-limit",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "maximum-record-count",
+      "category": "valid-record-limit",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "reference-over-record-limit",
+      "category": "record-limit",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observed-over-record-limit",
+      "category": "record-limit",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "existing-report",
+      "category": "overwrite-refusal",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "reference-as-output",
+      "category": "overwrite-refusal",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    },
+    {
+      "case": "observations-as-output",
+      "category": "overwrite-refusal",
+      "channel": "CLI",
+      "trial": 1,
+      "pass": true
+    }
+  ]
+}

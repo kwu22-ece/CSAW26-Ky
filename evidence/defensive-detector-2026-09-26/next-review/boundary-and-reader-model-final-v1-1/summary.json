@@ -1,0 +1,65 @@
+{
+  "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec",
+  "node_version": "v24.16.0",
+  "valid_boundary": {
+    "records": 100000,
+    "status": "PASS",
+    "reference_sha256": "6a32e9038a41b69594d1cca2c108a86e9633cbf6418b2549d8a21c38f8e42afc",
+    "observed_sha256": "5bd7b264120eecfe0d7d25115820ee8595b8b14bacff3aea4edc6ff211c2feb4"
+  },
+  "modeled_reader_checks": [
+    {
+      "name": "unchanged",
+      "initial_size": 4,
+      "read_bytes": 4,
+      "final_size": 4,
+      "expected": "PASS",
+      "actual": "PASS",
+      "error": null,
+      "close_calls": 1
+    },
+    {
+      "name": "grew-by-one",
+      "initial_size": 4,
+      "read_bytes": 5,
+      "final_size": 5,
+      "expected": "REJECT",
+      "actual": "REJECT",
+      "error": "Input size changed during reading",
+      "close_calls": 1
+    },
+    {
+      "name": "shrank",
+      "initial_size": 4,
+      "read_bytes": 3,
+      "final_size": 3,
+      "expected": "REJECT",
+      "actual": "REJECT",
+      "error": "Input size changed during reading",
+      "close_calls": 1
+    },
+    {
+      "name": "same-read-size-final-stat-growth",
+      "initial_size": 4,
+      "read_bytes": 4,
+      "final_size": 5,
+      "expected": "REJECT",
+      "actual": "REJECT",
+      "error": "Input size changed during reading",
+      "close_calls": 1
+    },
+    {
+      "name": "empty-unchanged",
+      "initial_size": 0,
+      "read_bytes": 0,
+      "final_size": 0,
+      "expected": "PASS",
+      "actual": "PASS",
+      "error": null,
+      "close_calls": 1
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "limitation": "Modeled short read/state transitions test the helper without stressing resources or proving filesystem snapshot atomicity. Maximum-record fixtures are prior exposed regression evidence, not fresh holdout."
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-26T07:48:53.513Z",
+  "result": "PASS",
+  "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec",
+  "adapter_sha256": "d1924d02ffbb051d281499fe580f45cc003b3f903b22c1993769d9d39a89c8dd",
+  "sources": [
+    {
+      "path": "evidence\\effectiveness-2026-09-26\\core-run-01\\50khz.csv",
+      "sha256": "a158b3b74cff802d2ed9da3abb0fc6bf351731b8a0730d9cbc1f552ad3c471ae"
+    },
+    {
+      "path": "evidence\\effectiveness-2026-09-26\\core-run-01\\1mhz.csv",
+      "sha256": "a158b3b74cff802d2ed9da3abb0fc6bf351731b8a0730d9cbc1f552ad3c471ae"
+    },
+    {
+      "path": "evidence\\behavior\\candidate-A-packaged-paths\\cycles.csv",
+      "sha256": "8340849286c3633fd244fc6d445c059e56e8433fb714650a2c038fe01dadaeb9"
+    }
+  ],
+  "reference_sha256": "b6cb845d0bc7b1147ddf635e1ff335d8b35d0a7d36f6b88a9bf940fbcf75b827",
+  "groups": {
+    "inverse_identity": 1312,
+    "published_known_answer": 4,
+    "short_shift_semantics": 62,
+    "saved_ordinary_rehearsal": 6
+  },
+  "records": 1384,
+  "results": {
+    "matching": {
+      "records": 1384,
+      "false_alarms": 0
+    },
+    "synthetic_bit_faults": {
+      "injected": 1384,
+      "detected": 1384,
+      "missed": 0
+    },
+    "reordered": {
+      "false_alarms": 0
+    },
+    "structural": {
+      "missing_detected": 1,
+      "unexpected_detected": 1
+    }
+  },
+  "limitations": [
+    "Ordinary recorded data only; other rehearsal phases have no independent trusted response here and are not scored.",
+    "Bit faults are harmless changes to copied observations; not new hardware or attack trials.",
+    "The same 328 input words at two rates are regression cases, not held-out data.",
+    "Known-answer coverage is restricted to the published pair; inverse identity and shifting do not prove cipher strength."
+  ]
+}

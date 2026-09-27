@@ -1,0 +1,446 @@
+{
+  "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec",
+  "source_unchanged": true,
+  "node_version": "v24.16.0",
+  "cases": 16,
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {
+      "name": "match",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "PASS",
+        "summary": {
+          "reference_records": 1,
+          "observed_records": 1,
+          "matched": 1,
+          "mismatched": 0,
+          "missing": 0,
+          "unexpected": 0
+        },
+        "alarms": [],
+        "created_at": "2026-09-26T07:48:16.942Z",
+        "inputs": {
+          "reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621",
+          "observed_sha256": "c25374d9d5a416839acc5152afea9c4d695b342fa12ae19166464cd7267bbf6c",
+          "pinned_reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "{\"status\":\"PASS\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\match.result.json\",\"summary\":{\"reference_records\":1,\"observed_records\":1,\"matched\":1,\"mismatched\":0,\"missing\":0,\"unexpected\":0}}\n",
+      "stderr": ""
+    },
+    {
+      "name": "different-one-bit",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "ALARM",
+        "summary": {
+          "reference_records": 1,
+          "observed_records": 1,
+          "matched": 0,
+          "mismatched": 1,
+          "missing": 0,
+          "unexpected": 0
+        },
+        "alarms": [
+          {
+            "type": "value_mismatch",
+            "id": "ordinary",
+            "expected": "12345678",
+            "observed": "12345679",
+            "differing_bits_lsb0": [
+              0
+            ]
+          }
+        ],
+        "created_at": "2026-09-26T07:48:16.989Z",
+        "inputs": {
+          "reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621",
+          "observed_sha256": "5021b4620dbb9ce2a95e434b0b5647e18daaba8e4a56a420349046137ea5a888",
+          "pinned_reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "{\"status\":\"ALARM\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\different-one-bit.result.json\",\"summary\":{\"reference_records\":1,\"observed_records\":1,\"matched\":0,\"mismatched\":1,\"missing\":0,\"unexpected\":0}}\n",
+      "stderr": ""
+    },
+    {
+      "name": "empty-observation",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "INVALID",
+        "summary": null,
+        "alarms": [],
+        "errors": [
+          {
+            "code": "INVALID_INPUT",
+            "message": "Invalid JSON value"
+          }
+        ],
+        "created_at": "2026-09-26T07:48:17.039Z",
+        "inputs": {
+          "reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621",
+          "observed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "pinned_reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\empty-observation.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Invalid JSON value\"}]}\n"
+    },
+    {
+      "name": "empty-reference",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "INVALID",
+        "summary": null,
+        "alarms": [],
+        "errors": [
+          {
+            "code": "INVALID_INPUT",
+            "message": "Invalid JSON value"
+          }
+        ],
+        "created_at": "2026-09-26T07:48:17.092Z",
+        "inputs": {
+          "reference_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "observed_sha256": "c25374d9d5a416839acc5152afea9c4d695b342fa12ae19166464cd7267bbf6c",
+          "pinned_reference_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\empty-reference.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Invalid JSON value\"}]}\n"
+    },
+    {
+      "name": "truncated-observation",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "INVALID",
+        "summary": null,
+        "alarms": [],
+        "errors": [
+          {
+            "code": "INVALID_INPUT",
+            "message": "Expected JSON comma or closing brace"
+          }
+        ],
+        "created_at": "2026-09-26T07:48:17.145Z",
+        "inputs": {
+          "reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621",
+          "observed_sha256": "7b3199a0944001af205a2bd932d500b18cfebebc376b362eb19ea1f55c4fbe3c",
+          "pinned_reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\truncated-observation.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Expected JSON comma or closing brace\"}]}\n"
+    },
+    {
+      "name": "invalid-utf8-observation",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "INVALID",
+        "summary": null,
+        "alarms": [],
+        "errors": [
+          {
+            "code": "INVALID_INPUT",
+            "message": "The encoded data was not valid for encoding utf-8"
+          }
+        ],
+        "created_at": "2026-09-26T07:48:17.198Z",
+        "inputs": {
+          "reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621",
+          "observed_sha256": "a8100ae6aa1940d0b663bb31cd466142ebbdbd5187131b92d93818987832eb89",
+          "pinned_reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\invalid-utf8-observation.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"The encoded data was not valid for encoding utf-8\"}]}\n"
+    },
+    {
+      "name": "duplicate-json-key",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "INVALID",
+        "summary": null,
+        "alarms": [],
+        "errors": [
+          {
+            "code": "INVALID_INPUT",
+            "message": "Duplicate JSON object key"
+          }
+        ],
+        "created_at": "2026-09-26T07:48:17.249Z",
+        "inputs": {
+          "reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621",
+          "observed_sha256": "c9316a7a38ed7de98a37e999240def15a47cf5bead7b4987863e49e5ad24f1c9",
+          "pinned_reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\duplicate-json-key.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Duplicate JSON object key\"}]}\n"
+    },
+    {
+      "name": "bom-observation",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "INVALID",
+        "summary": null,
+        "alarms": [],
+        "errors": [
+          {
+            "code": "INVALID_INPUT",
+            "message": "Invalid JSON value"
+          }
+        ],
+        "created_at": "2026-09-26T07:48:17.300Z",
+        "inputs": {
+          "reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621",
+          "observed_sha256": "a9d1bddcd356e0922cc7edecb4a89293c823dd70666826dbc341b9754998508d",
+          "pinned_reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\bom-observation.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Invalid JSON value\"}]}\n"
+    },
+    {
+      "name": "reference-at-exact-limit",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "PASS",
+        "summary": {
+          "reference_records": 1,
+          "observed_records": 1,
+          "matched": 1,
+          "mismatched": 0,
+          "missing": 0,
+          "unexpected": 0
+        },
+        "alarms": [],
+        "created_at": "2026-09-26T07:48:17.601Z",
+        "inputs": {
+          "reference_sha256": "49533edbce4db716af16f9a2d70cd0fd735a2d76daa9ad20929133cd58f6acfd",
+          "observed_sha256": "c25374d9d5a416839acc5152afea9c4d695b342fa12ae19166464cd7267bbf6c",
+          "pinned_reference_sha256": "49533edbce4db716af16f9a2d70cd0fd735a2d76daa9ad20929133cd58f6acfd"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "{\"status\":\"PASS\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\reference-at-exact-limit.result.json\",\"summary\":{\"reference_records\":1,\"observed_records\":1,\"matched\":1,\"mismatched\":0,\"missing\":0,\"unexpected\":0}}\n",
+      "stderr": ""
+    },
+    {
+      "name": "observation-at-exact-limit",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "PASS",
+        "summary": {
+          "reference_records": 1,
+          "observed_records": 1,
+          "matched": 1,
+          "mismatched": 0,
+          "missing": 0,
+          "unexpected": 0
+        },
+        "alarms": [],
+        "created_at": "2026-09-26T07:48:17.916Z",
+        "inputs": {
+          "reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621",
+          "observed_sha256": "460a595a8c5806aa9a83d654694c8e057d6c0c7ba3a72d42e4f1617e0eac29f2",
+          "pinned_reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "{\"status\":\"PASS\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\observation-at-exact-limit.result.json\",\"summary\":{\"reference_records\":1,\"observed_records\":1,\"matched\":1,\"mismatched\":0,\"missing\":0,\"unexpected\":0}}\n",
+      "stderr": ""
+    },
+    {
+      "name": "reference-over-limit",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "INVALID",
+        "summary": null,
+        "alarms": [],
+        "errors": [
+          {
+            "code": "INVALID_INPUT",
+            "message": "Input exceeds 16 MiB"
+          }
+        ],
+        "created_at": "2026-09-26T07:48:17.975Z",
+        "inputs": {
+          "reference_sha256": null,
+          "observed_sha256": null,
+          "pinned_reference_sha256": "d0e69417d8630b0cdc9579f09716b163a1fd47600851f01d3b07b650010f5e50"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\reference-over-limit.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Input exceeds 16 MiB\"}]}\n"
+    },
+    {
+      "name": "observation-over-limit",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "report": {
+        "schema_version": 1,
+        "detector_version": "1.1.0",
+        "status": "INVALID",
+        "summary": null,
+        "alarms": [],
+        "errors": [
+          {
+            "code": "INVALID_INPUT",
+            "message": "Input exceeds 16 MiB"
+          }
+        ],
+        "created_at": "2026-09-26T07:48:18.021Z",
+        "inputs": {
+          "reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621",
+          "observed_sha256": null,
+          "pinned_reference_sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+        },
+        "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+      },
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\observation-over-limit.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Input exceeds 16 MiB\"}]}\n"
+    },
+    {
+      "name": "directory-reference",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "preserved": true,
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\directory-reference.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Input must be a regular file\"}]}\n"
+    },
+    {
+      "name": "directory-observation",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "preserved": true,
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\directory-observation.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Input must be a regular file\"}]}\n"
+    },
+    {
+      "name": "wrong-reference-pin",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "preserved": true,
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":\"C:\\\\Users\\\\lowbr\\\\Documents\\\\College\\\\AI\\\\CSAW_Hackathon\\\\evidence\\\\defensive-detector-2026-09-26\\\\next-review\\\\reader-final-v1-1\\\\wrong-reference-pin.result.json\",\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Reference SHA-256 does not match pinned value\"}]}\n"
+    },
+    {
+      "name": "existing-output",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "error": null,
+      "preserved": true,
+      "stdout": "",
+      "stderr": "{\"status\":\"INVALID\",\"output\":null,\"summary\":null,\"errors\":[{\"code\":\"INVALID_INPUT\",\"message\":\"Output must be a new file distinct from inputs\"}]}\n"
+    }
+  ],
+  "fixture_hashes": {
+    "ref": {
+      "bytes": 77,
+      "sha256": "f3d5b97491faaf61a2386d31feb43a8263cb86d1c519ce63232e38dbc10cd621"
+    },
+    "obs": {
+      "bytes": 77,
+      "sha256": "c25374d9d5a416839acc5152afea9c4d695b342fa12ae19166464cd7267bbf6c"
+    },
+    "mismatch": {
+      "bytes": 77,
+      "sha256": "5021b4620dbb9ce2a95e434b0b5647e18daaba8e4a56a420349046137ea5a888"
+    },
+    "empty": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "truncated": {
+      "bytes": 19,
+      "sha256": "7b3199a0944001af205a2bd932d500b18cfebebc376b362eb19ea1f55c4fbe3c"
+    },
+    "invalidUtf8": {
+      "bytes": 1,
+      "sha256": "a8100ae6aa1940d0b663bb31cd466142ebbdbd5187131b92d93818987832eb89"
+    },
+    "duplicate": {
+      "bytes": 57,
+      "sha256": "c9316a7a38ed7de98a37e999240def15a47cf5bead7b4987863e49e5ad24f1c9"
+    },
+    "bom": {
+      "bytes": 80,
+      "sha256": "a9d1bddcd356e0922cc7edecb4a89293c823dd70666826dbc341b9754998508d"
+    },
+    "refMax": {
+      "bytes": 16777216,
+      "sha256": "49533edbce4db716af16f9a2d70cd0fd735a2d76daa9ad20929133cd58f6acfd"
+    },
+    "obsMax": {
+      "bytes": 16777216,
+      "sha256": "460a595a8c5806aa9a83d654694c8e057d6c0c7ba3a72d42e4f1617e0eac29f2"
+    },
+    "refOver": {
+      "bytes": 16777217,
+      "sha256": "d0e69417d8630b0cdc9579f09716b163a1fd47600851f01d3b07b650010f5e50"
+    },
+    "obsOver": {
+      "bytes": 16777217,
+      "sha256": "11de675f18f1ab011979dc49a180d168b25f3d7c6a8899b39ac4f5c54ef23138"
+    }
+  }
+}

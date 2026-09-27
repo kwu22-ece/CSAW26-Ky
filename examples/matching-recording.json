@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "recording_id": "ordinary-project-matching",
+  "detector_version": "1.1.0",
+  "detector_sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec",
+  "reference": {
+    "file": "reference.json",
+    "sha256": "b6cb845d0bc7b1147ddf635e1ff335d8b35d0a7d36f6b88a9bf940fbcf75b827"
+  },
+  "observed": {
+    "file": "matching-observed.json",
+    "sha256": "aa101dfb582acab442ffe498234d26cbf97c4fd60d0a182cf9f19cf96bae5541"
+  }
+}

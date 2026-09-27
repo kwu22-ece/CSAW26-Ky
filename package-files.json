@@ -1,0 +1,110 @@
+{
+  "detector_version": "1.1.0",
+  "envelope_version": "1.0.0",
+  "files": [
+    {
+      "path": "scripts/spi-response-detector.cjs",
+      "sha256": "462c5c178940aefb0d6a64e2f94f071ee7a2d7d3dd86bb93f55c0253714f91ec"
+    },
+    {
+      "path": "scripts/verify-spi-recording.cjs",
+      "sha256": "9ad0a12d025cf4a2dda95316a056985ed0dd7888da2b9b9d753720cb765aada4"
+    },
+    {
+      "path": "scripts/test-spi-response-detector.cjs",
+      "sha256": "acf19ebd38842c0adcedf43b600fe006dcc082c8ea4ffbbc31cd90e38cc1f79d"
+    },
+    {
+      "path": "scripts/test-detector-resource-budget.cjs",
+      "sha256": "53027766b433c2d38adca175b31c23cdd8f670e1c85f57431f0c75afe0e0ea71"
+    },
+    {
+      "path": "scripts/test-recording-envelope.cjs",
+      "sha256": "5ac76260a9cbfe130c7389567c980b2909da65d4af6aebd82115d2426d9e38bf"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c3c64e4d4df72872e15e532fa39e0ef4c5ea0abf3039d73849cb0cc42709bc47"
+    },
+    {
+      "path": "contract.md",
+      "sha256": "88f4c61eaaaf9aefc1ebd9b28c8607186ed48866ffa8044611e713e94a6a74fc"
+    },
+    {
+      "path": "recording-contract.md",
+      "sha256": "9424a54c5f05f08c4c1e1b4ae06df7c8b75961d22e64242d058596b160336de1"
+    },
+    {
+      "path": "report.md",
+      "sha256": "2faa467b757fe9e34dfe3ae9e63c4d92b6efb843af495e983a544a50f9b88cf8"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/next-review/cycle-03-report.md",
+      "sha256": "055de7e07c249b48ffb774dff81331e3ed6dd105e88b1b889059bf471bf52956"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/next-review/baseline-v1/summary.json",
+      "sha256": "4bca99280d25e8b2917a5460a3166a2616e3fe45aa745c54da20f31fd35b67ad"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/next-review/final-v1-1/summary.json",
+      "sha256": "fd2127775065072c66b2ea9028422edab707a5b8ed78a570c113087be2220123"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/next-review/reader-final-v1-1/summary.json",
+      "sha256": "b943a0ddd4fd962c2d8a413e499635fc36e1316b8b7f1595a861a30e7f9a5288"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/next-review/boundary-and-reader-model-final-v1-1/summary.json",
+      "sha256": "8e0dbf1b5483a6036e682b5c1625ab1a636da5a9be83493f817ccd4b725dbd8f"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/recording-evaluation/report.md",
+      "sha256": "9ec2fcc3e3d3ef19ae45bcda73c438c0566658ed7eb4f5fcc9a476cf4ab970f5"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/recording-evaluation/aggregate-results.json",
+      "sha256": "5fef0bb92e8777c1ad40960d1c220e189e946d6b4e0263182dbb6930b1041942"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/recording-evaluation/harness-cli-correction.json",
+      "sha256": "ddd6f4f90b570afab2cc484705474bbb34c82369304573cd6332b044a4b9bc91"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/holdout/runs/regression-v1-1/summary.json",
+      "sha256": "077d7fe44753e38369f3844d69355edb1cf9157701c6addd16aac66b3f684dc6"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/holdout/regression-v1-1-adaptation.json",
+      "sha256": "78b80692af56058be70f5086f0a2394d54499c23787d5d2e363918fa6cf25feb"
+    },
+    {
+      "path": "evidence/defensive-detector-2026-09-26/project-run-v1-1/manifest.json",
+      "sha256": "ca2008c9f4da3b5d0a1ae9bca6e6178580f369316b5f8e3ea1d3b4570274e517"
+    },
+    {
+      "path": "examples/reference.json",
+      "sha256": "b6cb845d0bc7b1147ddf635e1ff335d8b35d0a7d36f6b88a9bf940fbcf75b827"
+    },
+    {
+      "path": "examples/matching-observed.json",
+      "sha256": "aa101dfb582acab442ffe498234d26cbf97c4fd60d0a182cf9f19cf96bae5541"
+    },
+    {
+      "path": "examples/synthetic-bit-faults-observed.json",
+      "sha256": "852ed3af1e2e2611555b60093fe92c068d5513fb7c1c5a5d651d3fa90bc8c72e"
+    },
+    {
+      "path": "examples/matching-recording.json",
+      "sha256": "70f2eaeed6f541f94c5a25f94d2b4f35afd3afa47c38244427643bc7eec88abe"
+    },
+    {
+      "path": "examples/faults-recording.json",
+      "sha256": "c1a77e1907316ceded334068175400518fbbb65465d2cd6c4bd13d1fbb252a44"
+    },
+    {
+      "path": "examples/manifest-pins.json",
+      "sha256": "3a2d918fbaf8e8c215410d8a5798ab5998b3298eeac2c31ff7d28c32f2aa7e1f"
+    }
+  ]
+}
