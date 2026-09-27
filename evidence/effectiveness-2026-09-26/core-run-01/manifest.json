@@ -1,0 +1,58 @@
+{
+  "started_at": "2026-09-26T06:15:41.396Z",
+  "scope": "Unmodified recovered core functional simulation; no wrapper instantiated",
+  "files": [
+    {
+      "path": "rtl/core.sim.v",
+      "sha256": "83e4be42f975ed681da0b42c96507dd511f0f82621a937deb073c4f5fb3fcf78"
+    },
+    {
+      "path": "rtl/reference_top.v",
+      "sha256": "e1f4fd8f1b0790543c60b249b99481bedbcc42a21716a9331db7b16d79a947d6"
+    },
+    {
+      "path": "rtl/cells_sim.v",
+      "sha256": "b5b2bcd86c0d6eea269015aaebff1d5fb66e7ec3f7eded0bde07406e5ac99527"
+    },
+    {
+      "path": "tb/validation/core_functional_tb.sv",
+      "sha256": "1fdad280ba94253c647073691f387970e3f03343f2c28af3f0a0103068a063fe"
+    }
+  ],
+  "runs": [
+    {
+      "label": "50khz",
+      "status": "PASS",
+      "vectors": 328,
+      "inverse_checks": 656,
+      "short_lengths": 31,
+      "cycles": 97662,
+      "half_ns": 10000
+    },
+    {
+      "label": "1mhz",
+      "status": "PASS",
+      "vectors": 328,
+      "inverse_checks": 656,
+      "short_lengths": 31,
+      "cycles": 97662,
+      "half_ns": 500
+    }
+  ],
+  "negative_control": {
+    "status": "EXPECTED_FAIL",
+    "exit_status": 1
+  },
+  "tools": [
+    {
+      "name": "iverilog",
+      "sha256": "f264cb4b42ce60e33ff9d0229f3cffd8ac67d262e6ebcd8db6dacf0fe13af5b2"
+    },
+    {
+      "name": "vvp",
+      "sha256": "10743f6a2d4ff8feab8bae9abcec8c7d55134546cc074dd573ab371085377353"
+    }
+  ],
+  "result": "PASS",
+  "finished_at": "2026-09-26T06:16:02.594Z"
+}

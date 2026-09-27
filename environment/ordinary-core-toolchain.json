@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "scope": "offline_simulation",
+  "integrity_evidence": "locally_generated",
+  "independent_provenance": false,
+  "observed_release": "2026-01-04",
+  "observed_platform": "win32",
+  "observed_architecture": "x64",
+  "observed_node": "v24.16.0",
+  "suite_environment_variable": "OSS_CAD_ROOT",
+  "default_suite_directory": "environment/oss-cad-20260104/oss-cad-suite",
+  "windows_archive": {
+    "url": "https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2026-01-04/oss-cad-suite-windows-x64-20260104.exe",
+    "bytes": 336757252,
+    "sha256": "18d6c03fae33de4e6d4ae0671a48fada1cc14890e579c3b470e83c73133dbb52"
+  },
+  "executables": [
+    {
+      "name": "iverilog",
+      "sha256": "f264cb4b42ce60e33ff9d0229f3cffd8ac67d262e6ebcd8db6dacf0fe13af5b2"
+    },
+    {
+      "name": "vvp",
+      "sha256": "10743f6a2d4ff8feab8bae9abcec8c7d55134546cc074dd573ab371085377353"
+    }
+  ],
+  "limitations": [
+    "Executable hashes do not pin every supporting library or dependency.",
+    "No installed toolchain, credentials, or private host paths are included."
+  ]
+}
